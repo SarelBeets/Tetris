@@ -17,3 +17,14 @@ Controls:
 - **Space**: rotate piece
 - **q**: quit the game
 
+
+## Motocross RL Demo
+
+This repository also includes a minimal motocross environment with a tabular Q-learning agent. The environment uses `pygame` for rendering. Install dependencies and run training with:
+
+```bash
+pip install pygame
+python3 train_agent.py
+```
+
+After training, a short demonstration will render the agent riding across the track.
